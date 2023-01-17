@@ -31,18 +31,18 @@ public class JawabanUTS {
             }
         }
         totalsisakuota = totaljmlmaba - totalTinformatika - totalTkom - totalDKV;
-        System.out.println("Total  Mahasiswa Baru Prodi Teknik Informatika :" + totalTinformatika + "" + "| Total Mahasiswa baru Prodi DKV :" + totalDKV + "| Total Mahasiswa Baru Teknik Komputer :" + totalTkom);
+        System.out.println("Total  Mahasiswa Baru Prodi Teknik Informatika :" + totalTinformatika + "| Total Mahasiswa baru Prodi DKV :" + totalDKV + "| Total Mahasiswa Baru Teknik Komputer :" + totalTkom);
         System.out.println("Jumlah Seluruh Mahasiwa Baru :" + totaljmlmaba + "| Total Sisa Kuota :" + totalsisakuota);
         System.out.println();
     }
-    public static void CheckIndexArray(String[] myArray,String maba){
-        int indexNow=0;
-        for (int index=0; index<myArray.length; index++) {
+    public static void CheckIndexArray(String[] myArray,String maba) {
+        int indexNow = 0;
+        for (int index = 0; index < myArray.length; index++) {
             if (myArray[index] != null) {
                 indexNow = index + 1;
             }
         }
-        if (indexNow < myArray.length){
+        if (indexNow < myArray.length) {
             myArray[indexNow] = maba;
         }
     }
@@ -70,7 +70,7 @@ public class JawabanUTS {
         while (true) {
             System.out.print("Nama Mahasiswa Baru = ");
             String namamaba = inputData.nextLine();
-            System.out.print("Program Studi Yang Di Pilih =");
+            System.out.print("Program Studi Yang Di Pilih  =");
             String Prodi = inputData.nextLine();
             if (namamaba.isBlank()) {
                 System.out.println("Program Studi Wajib Di Isi");

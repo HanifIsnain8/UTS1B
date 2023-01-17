@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="016de1e5-a770-4379-a967-0cb0d0d7ebb8" name="Changes" comment="OK 2">
+    <list default="true" id="016de1e5-a770-4379-a967-0cb0d0d7ebb8" name="Changes" comment="OK3">
+      <change afterPath="$PROJECT_DIR$/src/Facebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JawabanUTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JawabanUTS.java" afterDir="false" />
     </list>
@@ -85,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667624872880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="OK3">
+      <created>1668422194079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668422194079</updated>
+    </task>
+    <task id="LOCAL-00004" summary="OK3">
+      <created>1668422231318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668422231318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OK" />
     <MESSAGE value="OK 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK 2" />
+    <MESSAGE value="OK3" />
+    <option name="LAST_COMMIT_MESSAGE" value="OK3" />
   </component>
 </project>
